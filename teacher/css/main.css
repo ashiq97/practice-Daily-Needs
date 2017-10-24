@@ -1,0 +1,13 @@
+  body{
+    padding-top: 50px;
+    
+  }
+  #headerWrapper{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 600px;
+  background-image: url(back-flower2.jpg);
+
+  }
