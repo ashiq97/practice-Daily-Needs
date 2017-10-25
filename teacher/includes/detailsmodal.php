@@ -40,14 +40,15 @@ $size_array = explode(',', $sizeString);
                 <p>Brand: <?=$brand_result['brand_name']; ?></p>
                 <form  action="add_cart.php" method="post">
                     <div class="form-group">
-                        <div class="col-xs-4">
+                        <div class="col-xs-6">
                           <label for="quantity">Quantity:</label>
-                          <input type="number" class="form-control" id="quantity" name="quantity">
-                        </div>
-                          <div class="col-xs-9"></div>
+                          <input type="number" class="form-control" id="quantity" name="quantity" min="0">
+                        </div><br>
+                          <!-- <div class="col-xs-9"></div> -->
                         <!-- <p>Available: 3</p> -->
                     </div><br><br>
                     <div class="form-group">
+                      <br>
                       <label for="size">Size:</label>
                       <select class="form-control" id="size" name="size">
                           <option value=""></option>
